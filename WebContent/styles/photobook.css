@@ -1,0 +1,89 @@
+html, body {
+	font-family: 'Alegreya SC', serif;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	size: 20px;
+}
+
+body{
+	margin-top: 40px;
+}
+
+
+
+footer {
+	background-color: #2d0000;
+	padding: 15px;
+	width: 100%;
+}
+
+p{
+	font-size: 130%
+}
+
+.full {
+  background: url(../images/photobooks/icon/photobg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+#map {
+	height: 120%;
+	width: 100%;
+	  -webkit-filter: sepia(100%); /* Chrome, Safari, Opera */
+    filter: sepia(80%);
+    background-color: transparent;
+}
+
+.books{
+	display: none;
+}
+
+.jumbotron{
+	position:relative;
+	z-index: 15;
+	padding-left: 100px;
+	font-family: 'Fredericka the Great';
+	color: #ffffff;
+	background-color: rgba(112, 66, 20,.5);
+	margin:0;
+		box-shadow: 0 15px 8px -8px rgb(112, 66, 20);
+}
+
+.empty-well{
+	
+	padding: 50px 15px;
+	position:relative;
+	z-index: 15;
+	padding-left: 100px;
+	font-family: 'Fredericka the Great';
+	color: #ffffff;
+	background-color: rgba(112, 66, 20,.7);
+	margin:0;
+	box-shadow: 0 -15px 8px -8px rgb(112, 66, 20);
+}
+
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+    background-color: #590000;
+}
+
+.navbar-inverse {
+	color:#eadabc;
+	background-color: #2d0000;
+	border-color: #080808;
+}
+
+.navbar-inverse .navbar-brand {
+  color: #eadabc;
+}
+.navbar-inverse .navbar-text {
+  color: #eadabc;
+}
+.navbar-inverse .navbar-nav > li > a {
+  color: #eadabc;
+}

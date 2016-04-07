@@ -1,0 +1,287 @@
+html, body {
+	background-color: #d6b77c;
+	font-family: 'Alegreya SC', serif;
+	height: 100%;
+	margin: 0;
+	overflow-x: hidden;
+	padding: 0;
+	size: 20px;
+}
+
+body {
+	padding-top: 50px;
+}
+
+footer {
+	background-color: #2d0000;
+	margin: 50px 0 0 0;
+	padding: 15px;
+	position: relative;
+	width: 100%;
+	z-index: 2;
+}
+
+p {
+	font-size: 130%
+}
+
+/*Main container custom styling*/
+
+.container-main {
+	padding: 2% 15% 0 7%;
+}
+
+.container-main>.jumbotron {
+	color: #eadabc;
+	background-color: #2e1414;
+	border-radius: 25px;
+	box-shadow: 0 10px 6px -6px #2e1414;
+}
+
+.container-main>.jumbotron h1 {
+	font-family: 'Cinzel Decorative';
+	font-weight: 400;
+}
+
+/* Navigation bar custom styling */
+
+.navbar-inverse {
+	color: #eadabc;
+	background-color: #2d0000;
+	border-color: #080808;
+}
+
+.navbar-inverse .navbar-brand {
+	color: #eadabc;
+}
+
+.navbar-inverse .navbar-text {
+	color: #eadabc;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: #eadabc;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover,
+	.navbar-inverse .navbar-nav>.active>a:focus {
+	background-color: #590000;
+}
+
+/*Off canvas styling*/
+
+.row-offcanvas {
+	position: relative;
+	-webkit-transition: all 1s ease-out;
+	-o-transition: all 1s ease-out;
+	transition: all 1s ease-out;
+}
+
+.row-offcanvas-right {
+	right: 0;
+}
+
+.row-offcanvas-left {
+	left: 0;
+}
+
+.row-offcanvas-right
+  .sidebar-offcanvas {
+	right: -125%; /* 6 columns */
+}
+
+.row-offcanvas-left
+  .sidebar-offcanvas {
+	left: -100%; /* 6 columns */
+}
+
+.row-offcanvas-right.active {
+	right: 125%; /* 6 columns */
+}
+
+.row-offcanvas-left.active {
+	left: 100%; /* 6 columns */
+}
+
+.sidebar-offcanvas {
+	position: absolute;
+	top: 0;
+	width: 100%; /* 6 columns */
+}
+
+/*Long side button styling*/
+
+.static-btn {
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 1;
+}
+
+.offcanvas-btn:hover {
+	color: #400000;
+	opacity: .6;
+}
+
+.offcanvas-btn, .offcanvas-btn:focus, .offcanvas-btn:active {
+	color: #400000;
+	font-size: 200%;
+	width: 60px;
+	height: 100%;
+	background: url(../images/texture.png);
+}
+
+/*Styling for ad on right side*/
+
+.well {
+	position: absolute;
+	right: 0;
+	top: 0;
+	height: 100%;
+	width: 200px;
+	z-index: 1;
+	padding: 0;
+	background: -webkit-linear-gradient(#fdecd5, #eadabc);
+	background: -o-linear-gradient(#fdecd5, #eadabc);
+	background: -moz-linear-gradient(#fdecd5, #eadabc);
+	background: linear-gradient(#fdecd5, #eadabc); 
+	border: none;
+}
+
+#ad {
+	padding: 150px 0 0 0;
+}
+
+.fmas-btn {
+	background-color: #2d0000;
+	color: #ffffff;
+	margin-top: 10px;
+}
+
+.panel-default>.panel-heading {
+	background-color: transparent;
+}
+
+.page-header {
+	color:#400000;
+	border: none;
+	box-shadow: 0 2px 2px -2px #a98134;
+}
+
+/*Weather Icon Styling*/
+.icon {
+	float: left;
+	margin-right: 20px;
+}
+
+.info {
+	padding-top: 30px;
+	
+}
+
+.flight-info {
+	position: relative;
+	color: #2d0000;
+	font-family: 'Waiting for the Sunrise';
+	font-weight: 900;
+	font-size: 140%;
+	background: url(../images/tag.png) no-repeat;
+	padding-bottom: 60px;
+}
+
+.hotel-info{
+	color: #2d0000;
+	font-family: 'Waiting for the Sunrise';
+	font-weight: 900;
+	font-size: 140%;
+	background: url(../images/tag-inverse.png) no-repeat;
+	padding-bottom: 70px;
+}
+
+.curtain {
+	font-family: 'Cinzel Decorative';
+	font-weight: 900;
+	color: #ffffff;
+	font-size: 130%;
+	background: #2d0000;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: -20px;
+	left: 0;
+	z-index: 5;
+	display: none;
+	opacity: .8;
+	padding-top: 120px;
+}
+
+.flight-info:hover .curtain {
+	display: block;
+}
+
+#destination {
+	display: none;
+}
+
+#c-text2 {
+	display: none;
+}
+
+#itinerary {
+	display: none;
+}
+
+/*Google Map Styling*/
+
+.map {
+	height: 500px;
+	width: 500px;
+	float: left;
+}
+
+.map-panel {
+	width: 1120px;
+}
+
+.right-panel {
+	font-family: 'Roboto', 'sans-serif';
+	line-height: 30px;
+}
+
+.right-panel select, #right-panel input {
+	font-size: 15px;
+}
+
+.right-panel select {
+	width: 100%;
+}
+
+.right-panel i {
+	font-size: 12px;
+}
+
+.right-panel {
+	border-top: 3px solid #eee;
+	border-bottom: 3px solid #eee;
+	width: 500px;
+	height: 500px;
+	padding: 0 0 0 10px;
+	overflow: auto;
+}
+
+.row{
+	margin-top: 20px;
+}
+
+.weather{
+	background: #ffffff;
+	width: 100%;
+	border-radius: 25px;
+}
+
+.default-btn{
+	color: #400000;
+	margin-right: 20px;
+	margin-bottom: 10x;
+}

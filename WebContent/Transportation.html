@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Transportation</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="styles/bootstrap.css">
+	<link rel="stylesheet" href="styles/transportation.css">
+
+	<!-- Fonts CSS -->
+	<link href='https://fonts.googleapis.com/css?family=Cinzel+Decorative:900,400|Special+Elite|Alegreya+SC:400,900|Fredericka+the+Great' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+	
+	<!-- Navbar Section -->
+	<nav class="navbar navbar-fixed-top navbar-inverse">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span> <span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="Welcome">FMAS</a>
+			</div><!-- navbar header ends -->
+
+			<div id="navbar" class="collapse navbar-collapse">
+				<ul class="nav navbar-nav">
+					<li><a href="Welcome">Home</a></li>
+					<li><a href="MyPhotoBook">My Photo Book</a></li>
+					<li><a href="Confirmation.html">Hotel</a></li>
+					<li class="dropdown active"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Transportation <span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="https://maps.google.com/landing/transit/index.html">Public Transportation</a></li>
+							<li><a href="https://www.lyft.com" target="iframe_a">Lyft</a></li>
+							<li><a href="http://nationalcabcompany.com/" target="iframe_a">Taxi</a></li>
+						</ul>
+					</li><!-- dropdown ends -->
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="Logout"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
+				</ul>
+			</div>
+		</div><!-- container ends -->
+	</nav><!-- navbar ends -->
+
+	<!-- Full width and height iframe -->
+	<div class="row">
+		<div class=col-md-12>
+			<iframe width="100%" height="700px" src="https://maps.google.com/landing/transit/index.html" name="iframe_a"></iframe>
+		</div>
+	</div>
+
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.js"></script>
+</body>
+
+<footer class="container-fluid text-center">
+	<a href="#">Terms of Service</a>&nbsp;&nbsp;|&nbsp;&nbsp; 
+	<a href="#">Privacy Policy</a>&nbsp;&nbsp;|&nbsp;&nbsp; 
+	<a href="AboutUs.html">About Us</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+	<a href="#">Contact Us</a>
+</footer>
+
+</html>
